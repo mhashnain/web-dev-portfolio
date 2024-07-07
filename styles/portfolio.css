@@ -153,3 +153,58 @@ main section{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
+/* -------Resume section style------------ */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.experience-subtitle{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 30px;
+}
+
+.experience-description .experience-subtitle{
+    color: #757575;
+}
+
+.resume hr{
+    margin: 10px;
+}
+h3.resume-title.text-align{
+    font-weight:600px;
+    font-size: 35px;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
+}
+
+/* ---------footer style------- */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer input[type="textarea"]{
+    height:60px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+
+}
